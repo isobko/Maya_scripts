@@ -3,4 +3,4 @@
 INFO scripts:
 - ReplaceAnimKeys.py
 
-  Replaces the initial animation key with a custom one by checking on the selected meshes
+  Replace the first animation key with the specified value for all selected meshes
