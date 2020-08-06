@@ -1,7 +1,7 @@
 import maya.cmds as cmds
 
-REPLACE_NUMBER = 0
-COMPARE = 0.01
+REPLACE_NUMBER = 0 # The value to be replaced with
+COMPARE = 0.01 # Checking the value of the animation key to be replaced
 
 def replaceKey():
     objs = cmds.ls(selection=True)
